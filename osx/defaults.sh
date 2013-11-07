@@ -141,9 +141,9 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# Use list view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# Use column view in all Finder windows by default
+# Four-letter codes the view modes: `icnv`, `clmv`, `Flwv` 'Nlsv`
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 # Show the ~/Library folder.
 chflags nohidden ~/Library
