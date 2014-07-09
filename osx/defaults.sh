@@ -198,3 +198,10 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 # Enable the debug menu in Disk Utility
 defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 defaults write com.apple.DiskUtility advanced-image-options -bool true
+
+###############################################################################
+# Chrome                                                                      #
+###############################################################################
+
+# Disable Chrome's two-finger back/forward navigation
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
