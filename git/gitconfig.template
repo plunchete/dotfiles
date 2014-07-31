@@ -17,6 +17,7 @@
   delete-branch = !sh -c 'git push origin :refs/heads/$1 && git remote prune origin && git branch -D $1' -
   merge-branch = !git checkout master && git merge @{-1}
   st = status
+  undo = reset --soft HEAD~1
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
