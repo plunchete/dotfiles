@@ -1,6 +1,7 @@
 [user]
   name = AUTHORNAME
   email = AUTHOREMAIL
+  signkey = GPGKEY
 
 [push]
   default = simple
